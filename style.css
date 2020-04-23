@@ -1,0 +1,97 @@
+body {
+  text-align: center;
+  background: hsl(0, 0%, 98%);
+}
+h2 {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+}
+h3 {
+  font-family: "Poppins", sans-serif;
+}
+.reliable {
+  font-weight: 100;
+}
+p {
+  font-family: "Poppins", sans-serif;
+  color: hsl(229, 6%, 66%);
+  font-size: 15px;
+}
+.cards {
+  display: flex;
+  justify-content: start;
+  width: 80%;
+  height: 50vh;
+  margin: 0 auto;
+}
+.centerCard {
+  height: 100%;
+  width: 33%;
+}
+.indCard {
+  width: 33%;
+  background: white;
+  height: 67%;
+  margin: 0 15px;
+  margin-top: 10%;
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.3);
+  border-radius: 2%;
+}
+.supervisor {
+  padding-left: 5px;
+  text-align: left;
+  border-top: 4px solid hsl(180, 62%, 55%);
+  margin-right: 0;
+  border-radius: 3%;
+}
+.team {
+  padding-left: 5px;
+  text-align: left;
+  border-top: 4px solid hsl(0, 78%, 62%);
+  background: white;
+  height: 57%;
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.3);
+  border-radius: 2%;
+  padding-bottom: 5%;
+}
+.karma {
+  padding-left: 5px;
+  text-align: left;
+  background: white;
+  height: 57%;
+  margin-top: 7%;
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.3);
+  border-radius: 2%;
+  border-top: 4px solid hsl(34, 97%, 64%);
+  padding-bottom: 5%;
+}
+.calculator {
+  padding-left: 5px;
+  text-align: left;
+  border-top: 4px solid hsl(212, 86%, 64%);
+  margin-right: 0;
+  border-radius: 3%;
+}
+.icons {
+  width: 15%;
+  margin-right: 3%;
+  float: right;
+}
+@media screen and (max-width: 450px) {
+  .cards {
+    justify-content: space-between;
+    flex-direction: column;
+    height: 100vh;
+    width: 300px;
+  }
+  .indCard {
+    width: 100%;
+    min-height: 33vh;
+    margin: 0 auto;
+  }
+  .centerCard {
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 125px;
+  }
+}
